@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ToDoApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Custom colors. -->
+        <item name="colorAccentSecondary">@color/lightAccentSecondary</item>
+        <item name="colorDialogBackground">@color/white</item>
+        <item name="colorDialogNegativeButtonBackground">@color/lightNegativeDialogBackground</item>
+        <item name="colorDialogNegativeButtonText">@color/lightTextSecondary</item>
+        <item name="colorTextHint">@color/lightTextHint</item>
+        <item name="colorThemeBackground">@color/lightThemeBackground</item>
+        <item name="colorThemeForeground">@color/white</item>
+        <item name="colorRoundedViewBackground">@color/lightRoundedViewBackground</item>
+        <item name="colorTextSecondary">@color/lightTextSecondary</item>
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="q">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="q">true</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:itemBackground">?attr/colorRoundedViewBackground</item>
+    </style>
+</resources>

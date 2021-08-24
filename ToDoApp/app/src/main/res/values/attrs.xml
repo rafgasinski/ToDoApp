@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorAccentSecondary" format="reference|color" />
+    <attr name="colorDialogBackground" format="reference|color" />
+    <attr name="colorDialogNegativeButtonBackground" format="reference|color" />
+    <attr name="colorDialogNegativeButtonText" format="reference|color" />
+    <attr name="colorThemeBackground" format="reference|color" />
+    <attr name="colorThemeForeground" format="reference|color" />
+    <attr name="colorRoundedViewBackground" format="reference|color" />
+    <attr name="colorTextHint" format="reference|color" />
+    <attr name="colorTextSecondary" format="reference|color" />
+</resources>

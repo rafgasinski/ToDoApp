@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <stroke android:width="2.5dp"
+                android:color="?attr/colorTextHint" />
+
+            <corners android:radius="6dp" />
+
+            <size
+                android:height="24dp"
+                android:width="24dp" />
+        </shape>
+    </item>
+
+
+    <item
+        android:drawable="@drawable/ic_text"
+        android:top="6dp"
+        android:bottom="6dp"
+        android:left="6dp"
+        android:right="6dp" />
+
+</layer-list>
